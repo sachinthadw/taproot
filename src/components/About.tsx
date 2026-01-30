@@ -1,6 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
+import teamMeetingImg from '/assets/team_meeting.png';
+
 const About: React.FC = () => {
     return (
         <section id="about" className="py-24 bg-platinum-50 overflow-hidden relative">
@@ -15,7 +17,7 @@ const About: React.FC = () => {
                         className="md:w-1/2 relative"
                     >
                         <div className="relative rounded-2xl overflow-hidden shadow-2xl z-10">
-                            <img src="/assets/team_meeting.png" alt="Taproot Team" className="w-full h-auto object-cover transform hover:scale-105 transition-transform duration-700" />
+                            <img src={teamMeetingImg} alt="Taproot Team" className="w-full h-auto object-cover transform hover:scale-105 transition-transform duration-700" />
                             <div className="absolute inset-0 bg-navy-900/10 mix-blend-overlay"></div>
                         </div>
                         {/* Decorative element */}

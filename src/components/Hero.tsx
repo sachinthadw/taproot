@@ -2,6 +2,8 @@ import React from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { Link } from 'react-scroll';
 
+import heroBg from '/assets/hero_background.png';
+
 const Hero: React.FC = () => {
     const { scrollY } = useScroll();
     const yBackground = useTransform(scrollY, [0, 1000], [0, 400]);
@@ -16,7 +18,7 @@ const Hero: React.FC = () => {
                 className="absolute inset-0 z-0"
             >
                 <img
-                    src="/assets/hero_background.png"
+                    src={heroBg}
                     alt="Hero Background"
                     className="w-full h-[120%] object-cover -top-[10%]"
                 />
