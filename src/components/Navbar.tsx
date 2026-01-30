@@ -27,7 +27,7 @@ const Navbar: React.FC = () => {
         { name: 'Services', to: 'services' },
         { name: 'Approach', to: 'approach' },
         { name: 'Team', to: 'team' },
-        { name: 'Contact', to: 'contact' },
+        { name: 'Start Project', to: 'contact' },
     ];
 
     return (
@@ -91,7 +91,7 @@ const Navbar: React.FC = () => {
                                 : "bg-transparent text-platinum-100 border-platinum-100 hover:bg-platinum-100 hover:text-navy-900"
                         )}
                     >
-                        Get in Touch
+                        Start Your Project
                     </Link>
                 </div>
 

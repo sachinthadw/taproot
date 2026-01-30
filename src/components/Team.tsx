@@ -32,32 +32,8 @@ const Team: React.FC = () => {
                     </motion.div>
                 </div>
 
-                {/* Qualifications Grid */}
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-24">
-                    {[
-                        "MSc in Construction Law & Dispute Resolution",
-                        "FIDIC Certified & CIDA Trained",
-                        "PMP (Project Management Professional)",
-                        "Civil Engineering (BSc) & Mechanical Engineering (BEng)",
-                        "MBA Qualifications",
-                        "Deep International Contract Knowledge"
-                    ].map((qual, index) => (
-                        <motion.div
-                            key={index}
-                            initial={{ opacity: 0, scale: 0.9 }}
-                            whileInView={{ opacity: 1, scale: 1 }}
-                            transition={{ duration: 0.4, delay: index * 0.1 }}
-                            viewport={{ once: true }}
-                            className="bg-white/80 backdrop-blur-md p-6 rounded-xl shadow-sm border border-platinum-200 hover:border-navy-900 transition-all duration-300 hover:shadow-[0_4px_20px_rgba(10,25,47,0.1)] flex items-center gap-4 group"
-                        >
-                            <CheckCircle2 className="text-navy-900 group-hover:scale-110 transition-transform duration-300 flex-shrink-0" size={24} />
-                            <span className="text-navy-800 font-medium">{qual}</span>
-                        </motion.div>
-                    ))}
-                </div>
-
                 {/* Competitive Advantages */}
-                <div className="bg-navy-900 rounded-3xl p-12 relative overflow-hidden text-platinum-50">
+                <div className="bg-navy-900 rounded-3xl p-12 relative overflow-hidden text-platinum-50 mb-20">
                     <div className="absolute top-0 right-0 w-64 h-64 bg-platinum-200 opacity-5 rounded-full filter blur-3xl -translate-y-1/2 translate-x-1/2"></div>
                     <div className="absolute bottom-0 left-0 w-64 h-64 bg-platinum-200 opacity-5 rounded-full filter blur-3xl translate-y-1/2 -translate-x-1/2"></div>
 
@@ -81,6 +57,35 @@ const Team: React.FC = () => {
                                 </div>
                                 <h4 className="text-xl font-bold mb-2 group-hover:text-platinum-50 transition-colors">{adv.title}</h4>
                                 <p className="text-platinum-200/70 text-sm group-hover:text-platinum-200 transition-colors">{adv.description}</p>
+                            </motion.div>
+                        ))}
+                    </div>
+                </div>
+
+                {/* Qualifications - Redesigned as Credentials Strip */}
+                <div className="max-w-5xl mx-auto">
+                    <h3 className="text-2xl font-bold text-navy-900 text-center mb-10 font-heading">Our Credentials</h3>
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                        {[
+                            "MSc in Construction Law & Dispute Resolution",
+                            "FIDIC Certified & CIDA Trained",
+                            "PMP (Project Management Professional)",
+                            "Civil Engineering (BSc) & Mechanical Engineering (BEng)",
+                            "MBA Qualifications",
+                            "Deep International Contract Knowledge"
+                        ].map((qual, index) => (
+                            <motion.div
+                                key={index}
+                                initial={{ opacity: 0, scale: 0.95 }}
+                                whileInView={{ opacity: 1, scale: 1 }}
+                                transition={{ duration: 0.4, delay: index * 0.1 }}
+                                viewport={{ once: true }}
+                                className="flex items-center gap-3 p-4 bg-white rounded-lg border-l-4 border-navy-900 shadow-sm hover:shadow-md transition-shadow"
+                            >
+                                <div className="p-2 bg-platinum-100 rounded-full text-navy-900">
+                                    <CheckCircle2 size={18} />
+                                </div>
+                                <span className="text-navy-900 font-medium text-sm leading-tight">{qual}</span>
                             </motion.div>
                         ))}
                     </div>
