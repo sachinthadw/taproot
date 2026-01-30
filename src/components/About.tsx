@@ -1,7 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-
-import teamMeetingImg from '/assets/team_meeting.png';
+import teamMeetingImg from '../assets/team_meeting.png';
 
 const About: React.FC = () => {
     return (

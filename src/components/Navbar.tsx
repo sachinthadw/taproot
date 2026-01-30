@@ -3,7 +3,7 @@ import { Link } from 'react-scroll';
 import { Menu, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { cn } from '../lib/utils';
-import logo from '/assets/taproot-logo.png';
+import logo from '../assets/taproot-logo.png';
 
 const Navbar: React.FC = () => {
     const [isScrolled, setIsScrolled] = useState(false);
