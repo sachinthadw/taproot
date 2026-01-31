@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { MapPin, Mail, Phone } from 'lucide-react';
+import { Mail, Phone } from 'lucide-react';
 
 const Contact: React.FC = () => {
     return (
@@ -33,18 +33,9 @@ const Contact: React.FC = () => {
                         {/* Decorative Background Element */}
                         <div className="absolute top-0 right-0 w-64 h-64 bg-navy-100 rounded-bl-full opacity-50 -mr-16 -mt-16 transition-transform duration-700 group-hover:scale-110"></div>
 
-                        <div className="relative z-10 grid grid-cols-1 md:grid-cols-3 gap-12 text-center">
+                        <div className="relative z-10 grid grid-cols-1 md:grid-cols-2 gap-12 text-center">
 
-                            {/* Address */}
-                            <div className="flex flex-col items-center group/item">
-                                <div className="p-6 bg-white rounded-full text-navy-900 shadow-md mb-6 group-hover/item:scale-110 group-hover/item:bg-navy-900 group-hover/item:text-platinum-50 transition-all duration-300">
-                                    <MapPin size={32} />
-                                </div>
-                                <h3 className="text-xl font-bold text-navy-900 mb-3 font-heading">Head Office</h3>
-                                <p className="text-gray-600 leading-relaxed max-w-[200px]">
-                                    Colombo, Western Province,<br />Sri Lanka
-                                </p>
-                            </div>
+
 
                             {/* Email */}
                             <div className="flex flex-col items-center group/item">

@@ -42,7 +42,7 @@ const About: React.FC = () => {
                                 Taproot Associates is a specialized program management firm delivering full-lifecycle management of infrastructure and real estate development projects across South Asia.
                             </p>
                             <p>
-                                We distinguish ourselves through complete end-to-end accountability—from concept and feasibility through design, procurement, construction, and operational handover. Unlike conventional project managers who work within discrete contractual packages, we assume integrated responsibility for time delivery, cost control, quality assurance, regulatory compliance, and stakeholder alignment.
+                                We distinguish ourselves through complete end-to-end accountability—from concept and feasibility through design, procurement, construction, and operational handover. Unlike conventional project managers who work within discrete contractual packages, we assume integrated responsibility for timely delivery, cost control, quality assurance, regulatory compliance, and stakeholder alignment.
                             </p>
                         </div>
 

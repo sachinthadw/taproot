@@ -15,7 +15,7 @@ const services = [
     },
     {
         title: "Contract Management",
-        description: "Expert structuring and administration of construction contracts using FIDIC standards. Claims prevention, dispute resolution, and risk management.",
+        description: "Expert structuring and administration of construction contracts using FIDIC and CIDA standards. Claims prevention, dispute resolution, and risk management.",
         icon: PenTool
     },
     {

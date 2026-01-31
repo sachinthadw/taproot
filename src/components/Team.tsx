@@ -26,7 +26,7 @@ const Team: React.FC = () => {
                     >
                         <h2 className="text-4xl md:text-5xl font-heading font-bold text-navy-900 mb-6">World-Class Expertise</h2>
                         <p className="text-gray-600 max-w-3xl mx-auto text-lg leading-relaxed">
-                            Our team combines 35+ years of experience in construction management and real estate development.
+                            Our team combines 35+ years of experience in Programme Management, Construction Management, and Real Estate Development.
                             We retain core technical and commercial capabilities in-house while strategically engaging specialist consultants.
                         </p>
                     </motion.div>

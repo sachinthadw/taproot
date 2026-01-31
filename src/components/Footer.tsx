@@ -1,5 +1,5 @@
 import { Link } from 'react-scroll';
-import { Mail, MapPin, Phone } from 'lucide-react';
+import { Mail, Phone } from 'lucide-react';
 
 const Footer: React.FC = () => {
     const currentYear = new Date().getFullYear();
@@ -45,10 +45,7 @@ const Footer: React.FC = () => {
                 <div>
                     <h3 className="text-lg font-bold text-platinum-50 mb-4">Contact</h3>
                     <div className="space-y-3 text-sm text-gray-400">
-                        <div className="flex items-start gap-3">
-                            <MapPin size={18} className="mt-1 flex-shrink-0" />
-                            <p>Colombo, Western Province, Sri Lanka</p>
-                        </div>
+
                         <div className="flex items-center gap-3">
                             <Mail size={18} />
                             <a href="mailto:hello@taprootassociates.com" className="hover:text-platinum-50">hello@taprootassociates.com</a>

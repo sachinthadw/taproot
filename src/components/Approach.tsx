@@ -9,7 +9,7 @@ const steps = [
     },
     {
         title: "Integrated Design & Procurement",
-        description: "Design coordination across all disciplines, systematic value engineering, competitive procurement strategy, FIDIC-aligned contract structuring, and contractor pre-qualification.",
+        description: "Design coordination across all disciplines, systematic value engineering, competitive procurement strategy, FIDIC or CIDA-aligned contract structuring, and contractor pre-qualification.",
         step: "02"
     },
     {
